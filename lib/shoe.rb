@@ -26,6 +26,14 @@ class Shoe
     @size
   end 
   
+  def material=(suede)
+    @material = suede
+  end 
+  
+  def material
+    @material
+  end 
+  
 end 
 
 
