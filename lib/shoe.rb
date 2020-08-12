@@ -37,9 +37,9 @@ class Shoe
     @condition = new
   end 
   
-  def condition
-    @condition
-  end 
+  # def condition
+  #   @condition
+  # end 
   
   
   def cobble
@@ -50,7 +50,9 @@ class Shoe
   
 end 
 
-
+# book = Book.new("Some Title")
+# book.turn_page
+# => "Flipping the page...wow, you read fast!"
 
 # def cobble
 #     self.condition = “new”
