@@ -34,8 +34,8 @@ class Shoe
     @material
   end 
   
-  def condition=(tatt)
-    @condition = tatt
+  def condition=(new)
+    @condition = new
   end 
   
   def condition
