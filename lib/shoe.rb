@@ -34,6 +34,15 @@ class Shoe
     @material
   end 
   
+  def condition=(tatt)
+    @condition = tatt
+  end 
+  
+  def condition
+    @condition
+  end 
+  
+  
 end 
 
 
