@@ -53,8 +53,7 @@ class Shoe
   
 end 
 
-cobble = Shoe.new("new")
-cobble.condition
+
 
 
 
