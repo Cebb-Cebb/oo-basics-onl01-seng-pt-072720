@@ -50,7 +50,7 @@ class Shoe
   
 end 
 
-
+condition.new 
 
 
 
