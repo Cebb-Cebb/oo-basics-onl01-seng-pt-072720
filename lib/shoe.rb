@@ -1,4 +1,5 @@
 # # Make your shoe class here!
+require 'pry '
 
 class Shoe 
   
@@ -48,9 +49,10 @@ class Shoe
     puts "Your shoe is as good as new!"
   end 
   
+  binding.pry 
 end 
 
-condition.new 
+
 
 
 
