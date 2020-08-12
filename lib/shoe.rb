@@ -44,6 +44,10 @@ class Shoe
   
   def cobble=(new)
     @cobble = cobble
+  end 
+  
+  def cobble
+    @cobble
     puts "Your shoe is as good as new!"
   end 
   
