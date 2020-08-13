@@ -1,55 +1,72 @@
 # # Make your shoe class here!
-class Shoe 
+class Shoe
+  attr_accessor :brand, :color, :size, :material, :condition
+  attr_reader :brand 
   
   def initialize(brand)
     @brand = brand
-  end 
+  end
   
-  def brand
-    @brand
-  end 
+  def 
+
+
+
+
+
+
+
+
+# class Shoe 
   
-  def color=(red)
-    @color = red
-  end 
+#   def initialize(brand)
+#     @brand = brand
+#   end 
   
-  def color
-    @color
-  end 
+#   def brand
+#     @brand
+#   end 
   
-  def size=(num)
-    @size = num
-  end 
+#   def color=(red)
+#     @color = red
+#   end 
   
-  def size
-    @size
-  end 
+#   def color
+#     @color
+#   end 
   
-  def material=(suede)
-    @material = suede
-  end 
+#   def size=(num)
+#     @size = num
+#   end 
   
-  def material
-    @material
-  end 
+#   def size
+#     @size
+#   end 
   
-  def condition=(new)
-    @condition = new
-  end 
+#   def material=(suede)
+#     @material = suede
+#   end 
   
-  def condition
-    @condition
-  end 
+#   def material
+#     @material
+#   end 
+  
+#   def condition=(new)
+#     @condition = new
+#   end 
+  
+#   def condition
+#     @condition
+#   end 
   
   
-  def cobble
-    self.condition = "new"
-    puts "Your shoe is as good as new!"
+#   def cobble
+#     self.condition = "new"
+#     puts "Your shoe is as good as new!"
     
-  end 
+#   end 
 
   
-end 
+# end 
 
 # book = Book.new("Some Title")
 # book.turn_page
